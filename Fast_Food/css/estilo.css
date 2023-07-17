@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html{
+    font-family: arial;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header{
+    background: linear-gradient(to top, #fff, #ff0000);
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: rem;
+    position: fixed;
+    width: 100%;
+}
+
+footer{
+    background: linear-gradient(to bottom, #fff, #ff0000);
+    color: #0b0b0b;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-align: center;
+    
+    
+}
+.conteudo-topo{
+    font-size: 1.5rem;
+    background-color: #fff;
+    padding: 0.8rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 95%;
+    padding-top: 27rem;
+}
+.conteudo{
+
+    font-size: 1.5rem;
+    background-color: #dcdcdc;
+    padding: 0.8rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 95%;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    color: #ff0000;
+}
+h2{
+    font-size: 1.9rem;
+}
+h3{
+    font-size: 1.7rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 3rem;
+    color: #ff0000;
+    text-shadow: 1px 1px 0.5px #000;
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+.imagens_site{
+    border-radius: 10px 10px 10px 10px;
+    width: 50%;
+    height: 30%;
+}
+@media(min-width: 280px) and (max-width: 1024px){ /*Configurando o tamanho da imagem para Mobile*/
+    .imagens_site{
+    border-radius: 10px;
+    width: 90%;
+    height: 70%;
+}
+}
+#compras{/*Cria um botão de compras na pagina*/
+    font-size: 1.5rem;
+    background-color: rgba(255, 215, 0, 0.5);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    margin-top: 22rem;  
+}
+@media(min-width: 280px) and (max-width: 1024px){
+    #compras{/*Cria um botão de compras na pagina*/
+        font-size: 1.5rem;
+        background-color: rgba(255, 215, 0, 0.5);
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        right: 0;
+        position: fixed;
+        text-align: center;
+        margin-top: 22rem;  
+    }
+}
+#grid-conteudo{
+    background-color: #fff;
+    padding-top: 22rem;
+}
+.grid{ /*Aqui configura a grade que está dentro do site*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    max-width: 1024;
+    margin: 0 auto;
+}
+.grid div{
+    background-color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+.formulario{
+    background-color: #dcdcdc; 
+
+}
+input{ /*campo de selecionar e preencher*/
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+#mensagens{ /*Campo de mensagem*/
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+#btn-limpar{ /*Botão de limpar*/
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+#enviar{ /*Botão de enviar*/
+    background-color: #00ff00;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+#btn_pedido{
+    background-color: #047304;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+}
+nav{
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 2px;
+    margin-right: 5%;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 2px #0b0b0b;
+}
+a:hover{
+    color: #ffff00;
+    text-shadow: 2px 2px 2px #0b0b0b;
+}
+b{ /*config das letras das fotos*/
+    text-decoration: none;
+    color: #000;
+    
+}
+b:hover{
+    color: #fff;
+    text-shadow: 2px 2px 2px #0b0b0b;
+    background-color: #ff0000;
+    border-radius: 10px ;
+    padding: 4px;
+}
